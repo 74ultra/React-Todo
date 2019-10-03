@@ -37,6 +37,7 @@ class App extends React.Component {
         return !item.completed
       })
     })
+    console.log('clearCompleted', this.state.todos)
   }
   
   addTask = task => {
@@ -47,6 +48,7 @@ class App extends React.Component {
         completed: false
       }]
     });
+    console.log('addTask', this.state.todos)
   }
   
   render() {
