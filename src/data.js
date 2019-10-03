@@ -5,7 +5,7 @@ export default [
     completed: false
   },
   {
-    task: "Clean shed",
+    task: "Build shed",
     id: 1528817084358,
     completed: false
   },

@@ -5,7 +5,7 @@ import './Todo.css';
 class Todo extends React.Component {
     constructor(props){
         super(props);
-        console.log('Todo.js', props);
+        
     }
 
     render(){
